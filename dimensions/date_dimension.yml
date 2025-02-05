@@ -94,7 +94,6 @@ calculation_groups:
           \ Dimension].CurrentMember, [Measures].currentMember)"
         format: Standard
         hierarchy: Date Dimension
-        template: Month Moving Average 3 Month
         name: Month Moving Average 3 Month
         description: Month Moving Average 3 Month
 
@@ -104,7 +103,6 @@ calculation_groups:
         expression: "([Date Dimension].[Date Dimension].CurrentMember, [Measures].currentMember)"
         format: Standard
         hierarchy: Date Dimension
-        template: Current
         is_default: true
         name: Current
 
@@ -115,7 +113,6 @@ calculation_groups:
           \ ))"
         format: Standard
         hierarchy: Date Dimension
-        template: Current vs Last Year
         name: Date Month Hierarchy Current vs Last Year
         description: Date Month Hierarchy Current vs Last Year
 
@@ -127,6 +124,5 @@ calculation_groups:
           \ 1, [Date Dimension].[Date Dimension].CurrentMember), [Measures].currentMember)"
         format: Percent
         hierarchy: Date Dimension
-        template: Current vs Last Year Pct
         name: Current vs Last Year Pct
         description: Current vs Last Year Pct
